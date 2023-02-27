@@ -1,0 +1,17 @@
+.carouselItem{
+  img{
+    width: 100%;
+    max-height: 448px;
+    object-fit: cover;
+    border-radius: 12px;
+
+    @media (max-width: 768px) {
+      object-fit: contain;
+    }
+
+    @media (max-width: 576px) {
+      object-fit: contain !important;
+      max-height: 224px;
+    }
+  }
+}

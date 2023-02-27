@@ -1,0 +1,41 @@
+.priceContainer{
+  display: flex;
+  border: 1px solid #F2F2F2;
+  padding: 0.5rem;
+  margin: 0.5rem 0;
+  border-radius: 8px;
+  align-items: center;
+
+  .priceInfo{
+    display: flex;
+    flex-direction: column;
+    margin-left: 0.5rem;
+
+    .label{
+      margin-bottom: 0.2rem;
+      span{
+        font-size: 0.8rem;
+        color: #98949E;
+      }
+    }
+
+    .prices{
+      display: flex;
+    }
+
+  }
+
+  .newPrice{
+    color: #4F2782;
+    font-weight: 800;
+    font-size: 1rem;
+  }
+
+  .oldPrice{
+    margin-left: 0.4rem;
+    font-size: 0.8rem;
+    text-decoration: line-through;
+    color: #8C7AA4;
+  }
+
+}

@@ -1,0 +1,16 @@
+.headerAuth{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  &:hover{
+    background: #f7f1fe;
+  }
+  border-radius: 12px;
+  padding: 2px;
+}
+
+.headerLogged{
+  img{
+    margin-right: 5px;
+  }
+}

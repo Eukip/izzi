@@ -1,0 +1,40 @@
+{
+  "name": "izzzi-front",
+  "version": "0.1.0",
+  "private": true,
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-css": "^1.0.1",
+    "axios": "^0.21.1",
+    "classnames": "^2.3.1",
+    "firebase": "^8.4.2",
+    "formik": "^2.2.9",
+    "next": "10.2.0",
+    "next-redux-wrapper": "^6.0.2",
+    "node-sass": "^5.0.0",
+    "prettier": "^2.2.1",
+    "react": "17.0.2",
+    "react-content-loader": "^6.0.3",
+    "react-dom": "17.0.2",
+    "react-hook-form": "^7.6.6",
+    "react-input-mask": "^2.0.4",
+    "react-phone-input-2": "^2.14.0",
+    "react-qr-code": "^1.1.1",
+    "react-qr-reader": "^2.2.1",
+    "react-redux": "^7.2.4",
+    "react-share": "^4.4.0",
+    "react-slick": "^0.28.1",
+    "react-tabs-redux": "^3.0.0",
+    "react-yandex-maps": "^4.6.0",
+    "redux": "^4.1.0",
+    "redux-devtools-extension": "^2.13.9",
+    "redux-thunk": "^2.3.0",
+    "swiper": "^6.5.9",
+    "yup": "^0.32.9"
+  },
+  "scripts": {
+    "build:prod": "NODE_ENV=production next build",
+    "dev": "NODE_ENV=development next dev -p 8080",
+    "start": "NODE_ENV=production next start"
+  }
+}
